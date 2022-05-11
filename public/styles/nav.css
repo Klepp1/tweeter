@@ -1,0 +1,17 @@
+nav {
+  background: #4056A1;
+  height: 120px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+}
+.new-tweet {
+  margin-left: 1530px;
+  margin-top: -20px;
+}
+.animation {
+  color: red;
+  margin-top: 45px;
+  margin-left: -90px;
+}
