@@ -7,6 +7,9 @@ nav {
   align-items: center;
   justify-content: flex-end;
   padding: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .new-tweet {
   margin-top: -15px;
