@@ -1,4 +1,4 @@
-header {
+.main-header {
   height: 400px;
   background: orange;
   display: flex;
@@ -8,4 +8,7 @@ header {
 }
 .user {
   color: white;
+}
+header {
+  font-family: Source-sans-pro;
 }

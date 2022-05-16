@@ -4,8 +4,9 @@ height: 40px;
 width: 100%;
 }
 form {
-  margin-left: 20px;
+  width: 100%;
   font-family: Source-sans-pro;
+  height: 220px;
 }
 button {
 font-family: Bungee;
@@ -23,10 +24,80 @@ height: 40px;
   font-family: bungee;
 }
 #tweet-text {
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid #424242;
   border-top: 0;
   border-right: 0;
   border-left: 0;
   background: #f4f1ec;
   outline: 0;
+}
+.headerr {
+  margin-left: 30px;
+}
+
+.users-name {
+  margin-right: auto;
+  height: 50px;
+}
+.blue {
+  color: blue;
+  opacity: 40%;
+  height: 50px;
+  position: absolute;
+  right: 1.5em;
+}
+
+article {
+  height: 60px;
+  border-bottom: 5px solid #424242;
+  width: 100%;
+  align-self: center;
+  font-family: Source-sans-pro;
+  position: relative;
+  right: 50px;
+}
+.icons {
+  display: inline;
+  position: absolute;
+  align-self: flex-end;
+  right: 5.8em;
+  bottom: 3em;
+  color: #4056A1;
+  transition: ease 150ms;
+}
+
+footer {
+  position: absolute;
+  align-self: flex-end;
+  left: 3em;
+  bottom: 3em;
+}
+.icons2 {
+  display: inline;
+  position: absolute;
+  align-self: flex-end;
+  right: 4.2em;
+  bottom: 3em;
+  color: #4056A1;
+  transition: ease 150ms;
+}
+.icons3 {
+  display: inline;
+  position: absolute;
+  align-self: flex-end;
+  right: 3em;
+  bottom: 3em;
+  color: #4056A1;
+  transition: ease 150ms;
+}
+.icons:hover {
+  color: darkkhaki;
+}
+
+.icons2:hover {
+  color: darkkhaki;
+}
+
+.icons3:hover {
+  color: darkkhaki;
 }
