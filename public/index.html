@@ -9,6 +9,7 @@
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,16 +21,17 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="logo">tweeter</span>
-      <span class="new-tweet"><b>Write </b> a new tweet</span>
       <span class="animation">
         <i class="fa-solid fa-angle-double-down fa-beat"></i>
       </span>
+      <span class="new-tweet"><b>Write </b> a new tweet</span>
     </nav>
     <header>
       <div>
@@ -43,7 +45,15 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <h3>HELLO HOW IS YOUR DAY!</h3>
+        <h2 class="headerr">Compose Tweet</h2>
+        <form action="/tweets/" method="POST">
+          <label for="tweet-text" class="label"><b>What are you humming about?</b></label>
+          <textarea name="text" id="tweet-text"></textarea>
+          <div>
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" id="counterr" for="tweet-text">140</output>
+          </div>
+        </form>
     </main>
   </body>
 </html>
