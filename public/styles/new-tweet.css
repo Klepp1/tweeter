@@ -33,6 +33,7 @@ height: 40px;
 }
 .headerr {
   margin-left: 30px;
+  height: 100px;
 }
 
 .users-name {
@@ -69,7 +70,7 @@ article {
 footer {
   position: absolute;
   align-self: flex-end;
-  left: 3em;
+  left: 4.2em;
   bottom: 3em;
 }
 .icons2 {
