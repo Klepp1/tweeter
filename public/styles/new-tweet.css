@@ -37,6 +37,7 @@ height: 40px;
 }
 
 .users-name {
+  display: inline;
   margin-right: auto;
   height: 50px;
 }
@@ -48,7 +49,7 @@ height: 40px;
   right: 1.5em;
 }
 
-article {
+.line {
   height: 60px;
   border-bottom: 5px solid #424242;
   width: 100%;
@@ -70,7 +71,7 @@ article {
 footer {
   position: absolute;
   align-self: flex-end;
-  left: 4.2em;
+  left: 1.3em;
   bottom: 3em;
 }
 .icons2 {
@@ -101,4 +102,10 @@ footer {
 
 .icons3:hover {
   color: darkkhaki;
+}
+
+p {
+  position: absolute;
+  height: 50px;
+  left: 4em;
 }
