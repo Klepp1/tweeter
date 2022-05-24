@@ -47,6 +47,26 @@ main {
   box-shadow: 12px 12px 2px 1px rgba(126, 139, 158, .7);
 }
 
+@media only screen and (min-width: 1024px) {
+  .main-header {
+     float: left;
+     width: 40%;
+     margin-top: 50px;
+     margin-left: 40px;
+  }
+  .img {
+    padding-top: 15px;
+  }
+  .tweet-container {
+    float: right;
+    width: 50%;
+  }
+  .new-tweat {
+    width: 50%;
+    float: right;
+  }
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
