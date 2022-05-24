@@ -57,6 +57,7 @@ height: 40px;
   font-family: Source-sans-pro;
   position: relative;
   right: 50px;
+  word-wrap: break-word;
 }
 .icons {
   display: inline;

@@ -26,8 +26,9 @@ body {
 }
 main {
   height: 600px;
-  width: 100%;
+  width: 90%;
   padding: 1.5em;
+  margin-left: 60px;
 }
 .sec {
   position: relative;
@@ -50,9 +51,9 @@ main {
 @media only screen and (min-width: 1024px) {
   .main-header {
      float: left;
-     width: 40%;
-     margin-top: 50px;
-     margin-left: 40px;
+     width: 30%;
+     margin-top: 100px;
+     margin-left: 100px;
   }
   .img {
     padding-top: 15px;
@@ -62,6 +63,14 @@ main {
     width: 50%;
   }
   .new-tweat {
+    width: 50%;
+    float: right;
+  }
+  .too-many-chars {
+    width: 50%;
+    float: right;
+  }
+  .no-text {
     width: 50%;
     float: right;
   }
