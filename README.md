@@ -18,3 +18,13 @@ This repository is the starter code for the project: Students will fork and clon
 - chance
 - body-parser
 - Node 5.10.x or above
+
+## Mobile/Tablet view
+
+!['Screenshot of mobile/tablet view'](https://github.com/Klepp1/tweeter/blob/master/docs/mobile-tabletView.png?raw=true)
+!['Screenshot of mobile.tablet tweet view'](https://github.com/Klepp1/tweeter/blob/master/docs/tablet-tweetView.png?raw=true)
+
+## Desktop view
+
+!['View of tweeter on desktop'](https://github.com/Klepp1/tweeter/blob/master/docs/tweeter!.png?raw=true)
+!['View of tweets on desktop view'](https://github.com/Klepp1/tweeter/blob/master/docs/tweets.png?raw=true)
